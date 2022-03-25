@@ -4,8 +4,6 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
-
 class ItcastItem(scrapy.Item):
     name = scrapy.Field()
     title = scrapy.Field()
